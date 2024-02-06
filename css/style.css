@@ -11,6 +11,9 @@ body {
     background-color: lightgray;
 }
 
+h1 {
+    display: inline-block
+}
 
 header {
     margin-bottom: 30px;
@@ -18,6 +21,16 @@ header {
 
 ul {
     list-style: none;
+}
+
+.entity-radio {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    text-align: center;
+    padding-top: 2px;
 }
 
 .div-margin {
