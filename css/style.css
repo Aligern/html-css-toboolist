@@ -11,7 +11,7 @@ body {
     background-color: #F6F8F9;
 }
 h1 {
-    display: inline-block;
+    display: inline;
 }
 header {
     margin-bottom: 30px;
@@ -19,6 +19,9 @@ header {
 /* hiding ul bullets */
 ul {
     list-style: none;
+}
+li {
+    margin-bottom: 10px;
 }
 .div-margin {
     margin-top: 10px;
