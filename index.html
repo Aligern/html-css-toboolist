@@ -1,60 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet">
     <title>toboolist</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <!-- header -->
     <header class="background-white">
-        <img src="img/logo.png" alt="">
-        <h1>Toboolist</h1>
+      <img src="img/logo.png" alt="Logo">
+      <h1>Toboolist</h1>
     </header>
 
     <!-- button -->
     <div class="background-white margin" id="button-margin">
-        <button class="button-border button-blue text-white">Add Task</button>
-        <button class="text-gray background-white" id="button-border2">Add Selection</button>
+      <button class="button-border button-blue text-white">Add Task</button>
+      <button class="text-gray background-white" id="button-border2">
+        Add Selection
+      </button>
     </div>
-
     <!-- main -->
     <main class="background-white margin" id="main-margin">
-        
-        <div class="div-margin">
-            <h2><span>&#9660;</span>New Task</h2>
-            <ul>
-                <li>
-                   <span class="entity-green">&check;</span> Quarterly Newsletter <button class="button-border button-blue text-white">Editorial</button>
-                </li>
-            </ul>
-        </div>
-
-        <div class="div-margin">
-            <h2><span>&#9660;</span>Today</h2>
-            <ul>
-                <li><span class="entity-green">&check;</span>Recruiting blog post <button class="button-border button-blue text-white">Editorial</button></li>
-                <li><span class="entity-green">&check;</span>Mobile app launch <button class="button-border button-purple text-white">Q1 Goals</button></li>
-                <li><span class="entity-red">&cross;</span>Interview John H. <button class="button-border button-green text-white">Recruiting</button></li>
-                <li><span class="entity-green">&check;</span>Summit update to mobile storefronts <button class="button-border text-white button-orange">Mobile</button></li>
-            </ul>
-        </div>
-
-        <div class="div-margin">
-            <h2><span>&#9660;</span>Upcoming</h2>
-            <ul>
-                <li><span class="entity-red">&cross;</span>Schedule meeting with Alex</li>
-                <li><span class="entity-green">&check;</span>Homepage refresh <button class="button-border button-pink text-white">Website</button></li>
-                <li><span class="entity-green">&check;</span>Onboard new Sales team members <button class="button-border button-lime text-white">Sales</button></li>
-                <li><span class="entity-green">&check;</span>Review editorial calendar <button class="button-border button-blue text-white">Editorial</button></li>
-            </ul>
-        </div>
-        
+      <div>
+        <h2><span>&#9660;</span>New Task</h2>
+        <ul>
+          <li>
+            <span class="entity-radio entity-green">&check;</span> Quarterly Newsletter
+            <button class="button-border button-blue text-white">
+              Editorial
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="div-margin">
+        <h2><span>&#9660;</span>Today</h2>
+        <ul>
+          <li>
+            <span class="entity-radio entity-green">&check;</span>Recruiting blog post
+            <button class="button-border button-blue text-white">
+              Editorial
+            </button>
+          </li>
+          <li>
+            <span class="entity-radio entity-green">&check;</span>Mobile app launch
+            <button class="button-border button-purple text-white">
+              Q1 Goals
+            </button>
+          </li>
+          <li>
+            <span class="entity-radio entity-red">&cross;</span>Interview John H.
+            <button class="button-border button-green text-white">
+              Recruiting
+            </button>
+          </li>
+          <li>
+            <span class="entity-radio entity-green">&check;</span>Summit update to mobile
+            storefronts
+            <button class="button-border text-white button-orange">
+              Mobile
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="div-margin">
+        <h2><span>&#9660;</span>Upcoming</h2>
+        <ul>
+          <li>
+            <span class="entity-radio entity-red">&cross;</span>Schedule meeting with Alex
+          </li>
+          <li>
+            <span class="entity-radio entity-green">&check;</span>Homepage refresh
+            <button class="button-border button-pink text-white">
+              Website
+            </button>
+          </li>
+          <li>
+            <span class="entity-radio entity-green">&check;</span>Onboard new Sales team
+            members
+            <button class="button-border button-lime text-white">Sales</button>
+          </li>
+          <li>
+            <span class="entity-radio entity-green">&check;</span>Review editorial calendar
+            <button class="button-border button-blue text-white">
+              Editorial
+            </button>
+          </li>
+        </ul>
+      </div>
     </main>
-</body>
+  </body>
 </html>
