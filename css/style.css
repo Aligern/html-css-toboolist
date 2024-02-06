@@ -10,18 +10,21 @@ body {
     font-weight: 900;
     background-color: #F6F8F9;
 }
-h1 {
-    display: inline;
-}
 header {
+    position:relative;
     margin-bottom: 30px;
+}
+h1 {
+    font-size: 45px;
+    display: inline-block;
+    position:absolute;
 }
 /* hiding ul bullets */
 ul {
     list-style: none;
 }
 li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 .div-margin {
     margin-top: 10px;
