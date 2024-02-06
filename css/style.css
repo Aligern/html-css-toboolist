@@ -61,9 +61,7 @@ li {
 }
 #button-margin {
     margin-bottom: 3px;
-    padding-bottom: 7px;
-    padding-top: 7px;
-    padding-left: 25px;
+    padding: 7px 0px 7px 25px;
 }
 .entity-green {
     color: #64C0A9;
